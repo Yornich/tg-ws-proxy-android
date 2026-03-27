@@ -75,7 +75,9 @@
     <string name="onboard_step2_title">2. Connect Telegram</string>
     <string name="onboard_step2_body">Tap "Connect in Telegram" — it will open Telegram with the proxy pre-configured. Confirm when prompted.</string>
     <string name="onboard_step3_title">3. Or add manually</string>
-    <string name="onboard_step3_body">In Telegram: Settings → Data and Storage → Proxy → Add Proxy → SOCKS5\nServer: 127.0.0.1  Port: 1080\nLeave login/password empty.</string>
+    <string name="onboard_step3_body">In Telegram: Settings → Data and Storage → Proxy → Add Proxy → SOCKS5
+Server: 127.0.0.1  Port: 1080
+Leave login/password empty.</string>
     <string name="onboard_done">Got it, let\'s go</string>
     <string name="telegram_not_installed">Telegram is not installed. Install Telegram, then open: Settings → Data and Storage → Proxy → Add Proxy → SOCKS5 (127.0.0.1:%1$d).</string>
     <string name="settings_appearance">Appearance</string>

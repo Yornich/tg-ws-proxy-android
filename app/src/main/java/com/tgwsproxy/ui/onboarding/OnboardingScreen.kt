@@ -50,7 +50,7 @@ fun OnboardingScreen(onDone: () -> Unit) {
         OnboardStep(
             icon  = Icons.Rounded.CheckCircle,
             title = stringResource(R.string.onboard_step3_title),
-            body  = "В Telegram: Настройки → Данные и память → Прокси → Добавить прокси → SOCKS5\nСервер: 127.0.0.1  Порт: 1080\nЛогин/Пароль — оставить пустыми"
+            body  = stringResource(R.string.onboard_step3_body)
         )
 
         Spacer(Modifier.weight(1f))

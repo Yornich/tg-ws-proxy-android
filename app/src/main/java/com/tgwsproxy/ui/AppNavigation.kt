@@ -113,10 +113,15 @@ fun AppNavigation() {
                 })
             }
             composable(Screen.Settings.route) {
-                val activity = (context as? android.app.Activity)
+                val activity = (LocalContext.current as? android.app.Activity)
                 SettingsScreen(
                     onLanguageChanged = {
-                        activity?.window?.decorView?.postDelayed({ activity.recreate() }, 100)
+                        activity?.let {
+                            val intent = it.intent
+                            it.finish()
+                            it.startActivity(intent)
+                            it.overridePendingTransition(0, 0)
+                        }
                     }
                 )
             }
