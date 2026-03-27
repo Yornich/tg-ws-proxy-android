@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield body — symmetric, centered at 54,54 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M54,20
+            C54,20 80,30 80,30
+            L80,54
+            C80,70 68,80 54,88
+            C40,80 28,70 28,54
+            L28,30
+            Z" />
+
+    <!-- Lightning bolt — centered, proportional -->
+    <path
+        android:fillColor="#5B6CF9"
+        android:pathData="
+            M59,34
+            L46,57
+            L54.5,57
+            L49,74
+            L62,51
+            L53.5,51
+            Z" />
+</vector>

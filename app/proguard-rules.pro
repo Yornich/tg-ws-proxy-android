@@ -1,0 +1,5 @@
+-keep class javax.crypto.** { *; }
+-keep class javax.crypto.spec.** { *; }
+-keep class java.security.** { *; }
+-keep class com.tgwsproxy.proxy.** { *; }
+-dontwarn javax.crypto.**
