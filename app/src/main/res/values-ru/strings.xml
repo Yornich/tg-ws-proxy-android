@@ -74,9 +74,7 @@
     <string name="onboard_step2_title">2. Подключите Telegram</string>
     <string name="onboard_step2_body">Нажмите «Подключить в Telegram» — откроется Telegram с уже настроенным прокси. Подтвердите подключение.</string>
     <string name="onboard_step3_title">3. Или добавьте вручную</string>
-    <string name="onboard_step3_body">В Telegram: Настройки → Данные и память → Прокси → Добавить прокси → SOCKS5
-Сервер: 127.0.0.1  Порт: 1080
-Логин/Пароль оставить пустыми.</string>
+    <string name="onboard_step3_body">В Telegram: Настройки → Данные и память → Прокси → Добавить прокси → SOCKS5\nСервер: 127.0.0.1  Порт: 1080\nЛогин/Пароль оставить пустыми.</string>
     <string name="onboard_done">Понятно, начнём</string>
     <string name="telegram_not_installed">Telegram не установлен. Установите Telegram, затем откройте: Настройки → Данные и память → Прокси → Добавить прокси → SOCKS5 (127.0.0.1:%1$d).</string>
     <string name="settings_appearance">Внешний вид</string>
